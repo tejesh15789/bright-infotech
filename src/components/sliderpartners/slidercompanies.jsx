@@ -5,7 +5,7 @@ import companies from "./slidercomp.js"
 const Slidercompanies = () => {
     return (
         <>
-        <div className=" w-100 ">
+        <div className="w-100">
             <section className="sliderhome container mb-4">
                 <div className="sliderheading d-flex flex-column  justify-content-center align-items-center pt-4 container">
                     <h1>With Great Outcomes</h1>
