@@ -58,11 +58,11 @@ const Footer = () => {
                     <div>
                         <h4 className='fw-bold'>Our Social Networks</h4>
                     </div>
-                    <div className="socials row gap-2 px-3">
-                        <i className="fa-brands fa-facebook iconss"></i>
-                        <i className="fa-brands fa-instagram iconss"></i>
-                        <i className="fa-brands fa-linkedin iconss"></i>
-                        <i className="fa-brands fa-twitter iconss"></i>
+                    <div className="socials row gap-2 px-3 ">
+                        <i className="fa-brands fa-facebook iconss img-fluid"></i>
+                        <i className="fa-brands fa-instagram iconss img-fluid"></i>
+                        <i className="fa-brands fa-linkedin iconss img-fluid"></i>
+                        <i className="fa-brands fa-twitter iconss img-fluid"></i>
                     </div>
                 </div>
             </section>

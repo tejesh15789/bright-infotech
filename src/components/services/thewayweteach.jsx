@@ -14,7 +14,7 @@ const Thewayweteach = () => {
 
                     <div className="row">
                         <div className="col d-flex justify-content-center align-items-center">
-                            <img src="./img/tutor1.png" alt="" className="w-75 h-75" />
+                            <img src="./img/tutor1.png" alt="" className=" img-fluid" />
                         </div>
                         <div className="col d-flex flex-column text-center justify-content-center align-items-center ">
                             <h4 className="fw-bold" style={{ color: "skyblue" }}>Industry experts as your tutors</h4>
@@ -28,13 +28,13 @@ const Thewayweteach = () => {
                         <p className="fc-gray fs-5">We will teach you from basics to advanced level. You don't have to learn anything prior to taking courses from us. You will become job-ready by end of the course.</p>
                     </div>
                     <div className="col d-flex justify-content-center align-items-center">
-                        <img src="./img/jumping.png" alt="" className="w-75 h-75" />
+                        <img src="./img/jumping.png" alt="" className=" img-fluid" />
                     </div>
                     </div>
 
                     <div className="row">
                         <div className="col d-flex justify-content-center align-items-center">
-                            <img src="./img/realtime.png" alt="" className="w-75 h-75" />
+                            <img src="./img/realtime.png" alt="" className=" img-fluid" />
                         </div>
                         <div className="col d-flex flex-column justify-content-center align-items-center">
                             <h4 className="fw-bold" style={{ color: "skyblue" }}> Real-time concepts, no theory</h4>
@@ -48,13 +48,13 @@ const Thewayweteach = () => {
                         <p className="fc-gray fs-5">You will learn by building real-time applications diring the training and We prepare you for the interviews and will take 2 mock interviews</p>
                     </div>
                     <div className="col d-flex justify-content-center align-items-center">
-                        <img src="./img/realproject.png" alt="" className="w-75 h-75"/>
+                        <img src="./img/realproject.png" alt="" className=" img-fluid"/>
                     </div>
                     </div>
 
                     <div className="row">
                     <div className="col d-flex justify-content-center align-items-center">
-                        <img src="./img/money.gif" alt="" className="w-75 h-75" />
+                        <img src="./img/money.gif" alt="" className=" img-fluid" />
                     </div>
                     <div className="col d-flex flex-column justify-content-center align-items-center">
                         <h4 className="fw-bold" style={{ color: "skyblue" }}>1 week money back gurantee</h4>

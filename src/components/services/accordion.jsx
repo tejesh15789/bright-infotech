@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,10 +16,12 @@ const Accordionsubjects = () => {
                         <Accordion.Header>
                             <div className='row w-100 d-flex justify-content-between align-items-center'>
                                 <div className='col-md-9 col-8 mt-3'>
-                                    <p>
-                                        <b>Flutter</b>
+                                    <div className="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+                                        <p className='mb-1 mb-sm-0'>
+                                            <b>Flutter</b>
+                                        </p>
                                         <b className='border rounded-pill text-center mx-3 px-2 fw-bolder'>#Data Visualization</b>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className='col-md-3 col-4'>
                                     <div className='d-flex align-items-center'>
@@ -50,10 +52,12 @@ const Accordionsubjects = () => {
                         <Accordion.Header>
                             <div className='row w-100 d-flex justify-content-between align-items-center'>
                                 <div className='col-md-9 col-8 mt-3'>
-                                    <p>
-                                        <b>Python</b>
+                                    <div className="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+                                        <p className='mb-1 mb-sm-0'>
+                                            <b>Python</b>
+                                        </p>
                                         <b className='border rounded-pill text-center mx-3 px-2 fw-bolder'>#Full Stack</b>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className='col-md-3 col-4'>
                                     <div className='d-flex align-items-center'>
@@ -83,10 +87,12 @@ const Accordionsubjects = () => {
                         <Accordion.Header>
                             <div className='row w-100 d-flex justify-content-between align-items-center'>
                                 <div className='col-md-9 col-8 mt-3'>
-                                    <p>
-                                        <b>Web Development</b>
+                                    <div className="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+                                        <p className='mb-1 mb-sm-0'>
+                                            <b>Web Development</b>
+                                        </p>
                                         <b className='border rounded-pill text-center mx-3 px-2 fw-bolder'>#Full Stack</b>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className='col-md-3 col-4'>
                                     <div className='d-flex align-items-center'>
@@ -117,10 +123,12 @@ const Accordionsubjects = () => {
                         <Accordion.Header>
                             <div className='row w-100 d-flex justify-content-between align-items-center'>
                                 <div className='col-md-9 col-8 mt-3'>
-                                    <p>
-                                        <b>Java</b>
+                                    <div className="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+                                        <p className='mb-1 mb-sm-0'>
+                                            <b>Java</b>
+                                        </p>
                                         <b className='border rounded-pill text-center mx-3 px-2 fw-bolder'>#Full Stack</b>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className='col-md-3 col-4'>
                                     <div className='d-flex align-items-center'>
@@ -154,10 +162,12 @@ const Accordionsubjects = () => {
                         <Accordion.Header>
                             <div className='row w-100 d-flex justify-content-between align-items-center'>
                                 <div className='col-md-9 col-8 mt-3'>
-                                    <p>
-                                        <b>Excel</b>
+                                    <div className="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+                                        <p className='mb-1 mb-sm-0'>
+                                            <b>Excel</b>
+                                        </p>
                                         <b className='border rounded-pill text-center mx-3 px-2 fw-bolder'>#Data</b>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className='col-md-3 col-4'>
                                     <div className='d-flex align-items-center'>
@@ -193,10 +203,12 @@ const Accordionsubjects = () => {
                         <Accordion.Header>
                             <div className='row w-100 d-flex justify-content-between align-items-center'>
                                 <div className='col-md-9 col-8 mt-3'>
-                                    <p>
-                                        <b>Power BI</b>
+                                    <div className="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+                                        <p className='mb-1 mb-sm-0'>
+                                            <b>Power BI</b>
+                                        </p>
                                         <b className='border rounded-pill text-center mx-3 px-2 fw-bolder'>#Data Visualization</b>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className='col-md-3 col-4'>
                                     <div className='d-flex align-items-center'>
@@ -226,10 +238,12 @@ const Accordionsubjects = () => {
                         <Accordion.Header>
                             <div className='row w-100 d-flex justify-content-between align-items-center'>
                                 <div className='col-md-9 col-8 mt-3'>
-                                    <p>
-                                        <b>SQL</b>
+                                    <div className="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+                                        <p className='mb-1 mb-sm-0'>
+                                            <b>SQL</b>
+                                        </p>
                                         <b className='border rounded-pill text-center mx-3 px-2 fw-bolder'>#Database</b>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className='col-md-3 col-4'>
                                     <div className='d-flex align-items-center'>
@@ -253,10 +267,12 @@ const Accordionsubjects = () => {
                         <Accordion.Header>
                             <div className='row w-100 d-flex justify-content-between align-items-center'>
                                 <div className='col-md-9 col-8 mt-3'>
-                                    <p>
-                                        <b>Machine Learning</b>
+                                    <div className="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+                                        <p className='mb-1 mb-sm-0'>
+                                            <b>Machine Learning</b>
+                                        </p>
                                         <b className='border rounded-pill text-center mx-3 px-2 fw-bolder'>#ML</b>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className='col-md-3 col-4'>
                                     <div className='d-flex align-items-center'>
@@ -291,4 +307,4 @@ const Accordionsubjects = () => {
     )
 }
 
-export default Accordionsubjects
+export default Accordionsubjects;

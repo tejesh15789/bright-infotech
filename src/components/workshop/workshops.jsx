@@ -13,7 +13,7 @@ const Workshops = () => {
                 {ExampleCarouselImage.map((image) => (
                   <Carousel.Item key={image.id} interval={1000}>
                     <img
-                      className="d-block w-100 coursel-img"
+                      className="d-block w-100 coursel-img img-fluid"
                       src={image.src}
                       alt={`Slide ${image.id}`}
                   

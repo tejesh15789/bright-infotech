@@ -13,7 +13,7 @@ const Placedstudents = () => {
         <div className="d-flex justify-content-center w-100 ">
         <div className="w-100 container">
             <section className="row  pb-5">
-            <div className="col ">
+            <div className="col-lg-6 ">
                 <div className="text-center">
                     <div className="row  py-5 w-100">
                         <h2 className="fw-bold  col-12" style={{ color: "skyblue" }}>
@@ -34,8 +34,8 @@ const Placedstudents = () => {
                     </div>
                 </div>
             </div>
-            <div className="placedimagehome  col d-flex justify-content-center">
-                    <img  src="./img/placedstuimg.png" width={500} alt="" />
+            <div className="placedimagehome col-12 col-lg-6 d-flex justify-content-center">
+                    <img  src="./img/placedstuimg.png"  alt="" className="img-fluid" />
             </div>
             </section>
 

@@ -21,7 +21,7 @@ const IntershipCard = () => {
               <div className="col-md-6 col-lg-4 col-sm-6 py-3 d-flex justify-content-center align-items-center" key={val.id}>
                 <div className="card h-100 w-75 border border-dark ">
                   <div className="overflow-hidden p-1 ">
-                    <img src={val.image} alt={val.courcename} className="card-img-top rounded" height={200} />
+                    <img src={val.image} alt={val.courcename} className="card-img-top rounded img-fluid" height={200} />
                   </div>
                   <div className='card-body row justify-content-between'>
                     

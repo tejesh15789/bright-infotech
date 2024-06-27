@@ -1,7 +1,7 @@
 .iconss{
   width: 40px;
   height: 40px;
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
   border-radius: 50%;
   background-color: rgba(109, 110, 111, 0.3);
   color: #eef0f0;
@@ -23,3 +23,11 @@
     color: black;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 400px) {
+  .iconss{
+    width: 30px;
+    height: 30px;
+  }
+}
+

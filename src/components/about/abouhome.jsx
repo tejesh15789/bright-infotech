@@ -15,8 +15,8 @@ const Abouhome = () => {
                             <p>We offer advanced IT Courses with Placements, making us stand out in the market. Bright InfoTech is one step ahead as we are offering IT jobs for freshers now. Our workplace is not just about completing daily tasks, but it is more about having a healthy as well as friendly environment for you to work in.</p>
                             <p>Our platform offers a range of IT jobs for freshers, providing an opportunity to build your career in the Tech Industry.</p>
                         </div>
-                        <div className="col d-flex justify-content-center align-items-center  ">
-                            <img src="./img/about1.jpg" alt="" width={400} height={300} />
+                        <div className="col-12 d-flex justify-content-center align-items-center  ">
+                            <img src="./img/about1.jpg"  className="img-fluid" alt=""  />
                         </div>
 
                     </div>

@@ -20,6 +20,26 @@ body {
     background-color: #2e5f89;
 }
 
+
+
+@media only screen and (max-width: 480px) {
+    .logo b {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .icon{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        /* border-radius: 50%; */
+        /* text-align: center;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: #eef0f0;
+        transition: 0.5s; */
+      }
+    
+  }
+
 /*---------------- header---------- --------- */
 /* header {
     background-color: rgba(209, 208, 208, 0.3);
@@ -74,7 +94,7 @@ header ul li a:hover {
 } */
 
 
-
+/* navbar */
 
 .bgc-gray-size{
     background-color: rgba(209, 208, 208, 0.3);

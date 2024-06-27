@@ -11,7 +11,7 @@ const Gallery = () => {
       <div className='container'>
         <div className='row'>
           {ExampleCarouselImage.map((image) => (
-            <div className='col-6 col-md-6 col-lg-4 mb-4' key={image.id}>
+            <div className=' col-sm-6 col-lg-4 col-12 mb-4' key={image.id}>
               <div className='gallerybox'>
                 <img src={image.src} alt={image.title} className='img-fluid' />
               </div>

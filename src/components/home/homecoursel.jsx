@@ -20,21 +20,21 @@ const Homecoursel = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="2000">
-                        <img src="./img/Flutter.jpg" className="d-block w-100"  height={400}  alt="..."/>
+                        <img src="./img/Flutter.jpg" className="d-block w-100 img-fluid"  height={400}  alt="..."/>
                            
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="./img/merndev2.png" className="d-block w-100" height={400} alt="..."/>
+                        <img src="./img/merndev2.png" className="d-block w-100 img-fluid" height={400} alt="..."/>
                             
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="./img/mis2.png" className="d-block w-100 " height={400} alt="..."/>
+                        <img src="./img/mis2.png" className="d-block w-100 img-fluid" height={400} alt="..."/>
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="./img/testing2.png" className="d-block w-100 " height={400} alt="..."/>
+                        <img src="./img/testing2.png" className="d-block w-100 img-fluid" height={400} alt="..."/>
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="./img/dotnet.png" className="d-block w-100 " height={400} alt="..."/>
+                        <img src="./img/dotnet.png" className="d-block w-100 img-fluid" height={400} alt="..."/>
                     </div>
                 </div>
                 {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

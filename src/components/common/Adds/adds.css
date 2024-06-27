@@ -1,7 +1,7 @@
 .review-btn {
     background-color: rgba(239, 239, 240, 0.3);
     width: 2.5rem;
-    height: 40vh;
+    height: 33vh;
     position: fixed;
     border-radius: 10px;
     filter: drop-shadow(1px 2px 10px black);
@@ -18,7 +18,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 30%;
+    width: 40%;
     height: 100vh;
     background-color: white;
     box-shadow: -2px 0 20px rgba(0, 0, 0, 0.5);
@@ -67,6 +67,9 @@
   .whatappbtn:hover {
     transform: scale(1.1);
   }
+  .whatappbtn {
+    animation: popup 0.5s ease-in-out, shine 2s infinite;
+  }
   
   @keyframes popup {
     0% {
@@ -89,10 +92,11 @@
     }
   }
   
-  .whatappbtn {
-    animation: popup 0.5s ease-in-out, shine 2s infinite;
-  }
+
   
 
 
 
+  @media only screen and (max-width: 500px) {
+    
+  }
