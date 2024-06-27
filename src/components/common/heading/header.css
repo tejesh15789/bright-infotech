@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.head {
+    padding: 10px;
+    color: white;
+}
+
+.logo b {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.head .icon {
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 3px 8px black;
+}
+
+body {
+    background-color: #2e5f89;
+}
+
+/*---------------- header---------- --------- */
+/* header {
+    background-color: rgba(209, 208, 208, 0.3);
+    margin: 0 30px;
+    height: 80px;
+    box-shadow: 1px 3px 4px black;
+    position: relative;
+
+} */
+/* .headingwidth{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    
+} */
+
+/* header ul {
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: black;
+}
+
+.start {
+    background-color: #edf0f0;
+    padding: 30px 60px;
+    height: 84px;
+    color: #1a81db;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.start .button {
+    font-weight: 700;
+    font-size: 13px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.toggle {
+    display: none;
+} */
+
+
+
+
+.bgc-gray-size{
+    background-color: rgba(209, 208, 208, 0.3);
+    height: 70px;
+    border: 1px solid;
+    box-shadow: 1px 3px 4px black;
+    position: relative;
+    z-index: 10;
+}
+.collapse .nav-item a{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: 500;
+
+}
+.collapse .nav-item a:hover{
+    color: rgb(10, 10, 10);
+    
+}
+.bgc-gray-size .navbar-text{
+    width: 15em;
+    height: 70px;
+    position: absolute;
+    right: 0.01rem;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: #edf0f0;
+
+}
+.bgc-gray-size .navbar-text button{
+    color: #2e5f89;
+    font-family: "Josefin Sans", sans-serif;
+}
+.bgc-gray-size .navbar-text button:hover{
+    color: rgb(59, 57, 57);
+}
+
+.navbar-collapse.show {
+    margin-top: 4.5em; /* Adjust the margin as per your requirement */
+    background-color: rgba(49, 96, 146, 0.9); /* Change to your desired color */
+}
+.navbar-toggler{
+    position: absolute;
+    color: transparent;
+    fill: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

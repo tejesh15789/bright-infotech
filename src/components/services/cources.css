@@ -1,0 +1,54 @@
+/* ONLINECOURCES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.services-three {
+    background-color:  #d3d0d0;
+    border-radius: 10px;
+}
+
+.cartboxes {
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    /* align-items: center;
+    align-content: stretch;
+    justify-items: center; */
+}
+
+.cartboxes .box-int {
+    transition: background-color 1s ease-in-out;
+    padding: 10px;
+}
+
+.desccart {
+    font-size: 15px;
+
+}
+
+.cartboxes .box-int:hover {
+    background-color: rgba(4, 71, 122, 0.7);
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .cartboxes {
+        align-items: normal;
+        align-content: stretch;
+    }
+}
+
+
+.weteach{
+    background-color:rgba(46, 101, 144,1);
+}
+
+ .rounded-pill{
+    background-color:rgba(46, 101, 144,0.4);
+}
+.clockimg{
+    width: 5px;
+    height: 15px;
+
+    /* display: flex;
+    justify-content: flex-end; */
+}

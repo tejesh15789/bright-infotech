@@ -1,0 +1,25 @@
+.iconss{
+  width: 40px;
+  height: 40px;
+  font-size: 1.4rem;
+  border-radius: 50%;
+  background-color: rgba(109, 110, 111, 0.3);
+  color: #eef0f0;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconss:hover{
+  cursor: pointer;
+  background-color: #08211f;
+  color: #174c7a;
+}
+.text-gray{
+    color: #666565;
+    text-decoration: none;
+}
+.text-gray:hover{
+    color: black;
+    font-weight: 400;
+}

@@ -1,0 +1,41 @@
+
+  .button2 {
+    width: fit-content;
+    display: flex;
+    padding: 8px 10px;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 30px;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    /* background: linear-gradient(15deg, #0e0088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat; */
+    background: linear-gradient(15deg, #0e0088, #2a507a, #292d45, #3e2316, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+
+    background-size: 300%;
+    color: #fff;
+    border: none;
+    background-position: left center;
+    box-shadow: 0 7px 10px 2px rgba(0,0,0,.2);
+    transition: background .3s ease;
+  }
+  .button2:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  .button2:hover svg {
+    fill: #f7f4f4;
+  }
+  .button2 svg {
+    width: 23px;
+    fill: #f09f33;
+    transition: .3s ease;
+    padding-top: 2px;
+  }
+  
+   
+
+  .modalform{
+    width: 100%;
+    height: 100%;
+    
+  }
