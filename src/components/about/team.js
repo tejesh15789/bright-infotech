@@ -15,7 +15,7 @@ const Team = [
     },
     {
         id : 3,
-        image : "./img/satishsir.jpg",
+        image : "./img/satishsir1.jpg",
         name : "Satish Pawale",
         role : "Software Developer" 
     },

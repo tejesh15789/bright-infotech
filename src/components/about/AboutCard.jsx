@@ -9,7 +9,7 @@ const AboutCard = () => {
     return (
         <>
             <section className=' d-flex justify-content-center'>
-                <div className='container row  py-5 px-5'>
+                <div className='container row py-4'>
 
                     <div className="col-md py-5">
 

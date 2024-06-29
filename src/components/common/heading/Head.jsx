@@ -14,7 +14,6 @@ const Head = () => {
                     <a href="https://www.instagram.com/bright_infotech_/"><i className="fa-brands fa-instagram icon img-fluid"></i></a>
                     <a href=""><i className="fa-brands fa-linkedin icon img-fluid"></i></a>
                     <a href=""><i className="fa-brands fa-twitter icon img-fluid"></i></a>
-                    <a href=""><i className="fa-brands fa-youtube icon img-fluid"></i></a>
                 </div>
             </div>
         </section>

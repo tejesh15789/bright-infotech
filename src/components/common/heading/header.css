@@ -31,13 +31,10 @@ body {
         width: 25px;
         height: 25px;
         line-height: 25px;
-      }
-    
-  }
+    }
+}
 
 /*---------------- header---------- --------- */
-
-
 
 /* navbar */
 
@@ -53,11 +50,9 @@ body {
     color: white;
     font-family: "Josefin Sans", sans-serif;
     font-family: 500;
-
 }
 .collapse .nav-item a:hover{
     color: rgb(10, 10, 10);
-    
 }
 .bgc-gray-size .navbar-text{
     width: 15em;
@@ -66,7 +61,6 @@ body {
     right: 0.01rem;
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
     background-color: #edf0f0;
-
 }
 .bgc-gray-size .navbar-text button{
     color: #2e5f89;
@@ -75,7 +69,6 @@ body {
 .bgc-gray-size .navbar-text button:hover{
     color: rgb(59, 57, 57);
 }
-
 .navbar-collapse.show {
     margin-top: 4.5em; /* Adjust the margin as per your requirement */
     background-color: rgba(49, 96, 146, 0.9); /* Change to your desired color */
@@ -88,7 +81,22 @@ body {
 }
 
 
+@media (max-width: 550px) {
+    .bgc-gray-size {
+        height: 50px; 
+    }
 
+    .bgc-gray-size .navbar-text {
+        height: 50px; 
+        width: 12em;
+        
+    }
+    .navbar-collapse.show {
+        margin-top: 3.6em; 
+       
+    }
+   
+}
 
 
 

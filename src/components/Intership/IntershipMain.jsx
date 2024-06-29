@@ -15,7 +15,7 @@ const IntershipMain = () => {
       </Modal>
       <section className="container">
         <main className='row d-flex py-5 gap-5'>
-          <div className="col px-5">
+          <div className="col px-2">
             <h1 className='fw-bold py-3' style={{ color: "skyblue" }}>
               Bright InfoTech <b className='text-white'>Internship Programs</b>
             </h1>

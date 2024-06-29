@@ -23,7 +23,7 @@ const Header = () => {
             <Modal isOpen={isOpen} style={{ overlay: { backgroundColor: 'rgba(0,0,0,0.5)' } }} onRequestClose={() => setOpen(false)} className='modalform d-flex justify-content-center align-items-center'>
                 <Formcard setClose={setOpen} />
             </Modal>
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav className="navbar navbar-expand-xl navbar-light">
                 <div className="container bgc-gray-size">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon border-none text-light"></span>

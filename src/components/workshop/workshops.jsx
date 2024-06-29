@@ -22,11 +22,11 @@ const Workshops = () => {
                 ))}
               </Carousel>
             </div>
-            <div className="col-lg-6 d-flex flex-column justify-content-center px-5">
-              <div className='px-5 pt-2'>
+            <div className="col-lg-6 d-flex flex-column justify-content-center ">
+              <div className=' pt-2'>
                 <h1 className='fw-bold'>Workshop At</h1>
               </div>
-              <div className='content4 w-100 px-5'>
+              <div className='content4 w-100 '>
                 <h3>
                   International Competition arranged at <b className='college'>Sanjay Ghodawat University</b>, Kolhapur for <b className='college'>IOT and Web Based Application.</b>
                 </h3>
