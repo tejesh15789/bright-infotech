@@ -6,7 +6,7 @@ const Workshops = () => {
   return (
     <>
       <section className='d-flex bg-light justify-content-center align-items-center py-5'>
-        <div className='container'>
+        <div className='container ff'>
           <div className='row'>
             <div className='col-lg-6 mb-4 mb-lg-0 pb-5'>
               <Carousel className='galleryslider'>

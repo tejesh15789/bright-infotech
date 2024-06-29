@@ -7,7 +7,7 @@ const HiringCart = () => {
     <div className='w-100 bg-light'>
     <section className="container ">
       <div className="d-flex justify-content-center py-5 ">
-        <h1 className='fw-bold'>Our Hiring <b style={{color: 'darkblue'}}> Parteners</b></h1>
+        <h1 className='fw-bold'>Our Hiring <b style={{ color: "" }}> Parteners</b></h1>
       </div>
       <div className="row">
         {Companies.map((val) => (

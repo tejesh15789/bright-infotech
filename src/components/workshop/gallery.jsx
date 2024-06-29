@@ -6,7 +6,7 @@ const Gallery = () => {
     <div>
     <section>
       <div className='d-flex justify-content-center my-4 text-dark fw-bold'>
-        <h1>Gallery</h1>
+        <h1 style={{color:"skyblue"}}> <b>Gallery</b></h1>
       </div>
       <div className='container'>
         <div className='row'>

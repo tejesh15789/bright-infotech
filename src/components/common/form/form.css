@@ -1,4 +1,19 @@
 .formback{
     position: absolute;
     top: 12rem;
+    width: 50%;
+}
+
+@media (max-width: 450px){
+   
+    .formback{
+        width: 80%;
+
+    }
+    .btn-close{
+        position: relative;
+        bottom: 2rem;
+        left: 2rem;
+    }
+    
 }

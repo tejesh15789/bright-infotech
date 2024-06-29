@@ -32,23 +32,21 @@
     flex-direction: column;
     margin-bottom: 2rem;
   }
-  
-  .card span {
+.card span {
     font-weight: bold;
     color: rgb(61, 60, 60);
     text-align: center;
     display: block;
     font-size: 1.2em;
-  }
-  
-  .card .info {
+}
+.card .info {
     font-weight: 400;
     color: rgb(120, 118, 118);
     display: block;
     text-align: center;
     font-size: 0.72em;
     margin: 1em;
-  }
+}
   
   .card .img {
     margin: auto;

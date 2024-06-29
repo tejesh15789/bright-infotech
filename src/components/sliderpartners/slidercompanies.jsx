@@ -8,7 +8,7 @@ const Slidercompanies = () => {
         <div className="w-100">
             <section className="sliderhome container mb-4">
                 <div className="sliderheading d-flex flex-column  justify-content-center align-items-center pt-4 container">
-                    <h1>With Great Outcomes</h1>
+                    <h1 style={{ color: "skyblue" }}>With Great <b className="text-light">Outcomes</b> </h1>
                     {/* <h4>Placed Students</h4> */}
                 </div>
                 <main className="d-flex flex-column gap-3 justify-content-center align-items-center">

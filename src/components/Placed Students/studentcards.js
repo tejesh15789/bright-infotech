@@ -71,7 +71,7 @@ const Studentscards = [
         image: "./img/placed card/s31.png",
         name: "Amol Giri",
         company: "xyx",
-        role: ">.NET Developer",
+        role: ".NET Developer",
         desc: "hstyjzh vgzhcb gjhwnsdc gjsdhbcznjhc"
     },
     {

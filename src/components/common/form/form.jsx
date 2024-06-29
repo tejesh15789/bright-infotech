@@ -63,11 +63,11 @@ const Formcard = (props) => {
 
   return (
     <>
-      <div className='bg-light w-50 mx-5 container rounded formback'>
+      <div className='bg-light  mx-5 container rounded formback'>
         <section className="container py-2 px-4">
           <div className='d-flex justify-content-between align-items-center mb-3'>
             <h3>Download Brochure & Enrole Now</h3>
-            <button onClick={handleCloseForm} className="btn-close border bg-light" aria-label="Close"></button>
+            <button onClick={handleCloseForm} className="btn-close  bg-light" aria-label="Close"></button>
           </div>
           <form onSubmit={handleSubmit} ref={form}>
             <div className="row mb-3">
