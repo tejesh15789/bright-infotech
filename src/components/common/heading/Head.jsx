@@ -12,7 +12,7 @@ const Head = () => {
                 <div className="social">
                     <a href="https://www.facebook.com/bright.infotch?mibextid=ZbWKwL"><i className="fa-brands fa-facebook icon img-fluid"></i></a>
                     <a href="https://www.instagram.com/bright_infotech_/"><i className="fa-brands fa-instagram icon img-fluid"></i></a>
-                    <a href=""><i className="fa-brands fa-linkedin icon img-fluid"></i></a>
+                    <a href="https://www.linkedin.com/company/bright-infotech/?originalSubdomain=in"><i className="fa-brands fa-linkedin icon img-fluid"></i></a>
                     <a href=""><i className="fa-brands fa-twitter icon img-fluid"></i></a>
                 </div>
             </div>

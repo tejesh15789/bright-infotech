@@ -1,7 +1,7 @@
 const intershipcource = [
     {
         id:1,
-        image:"./img/h_1.png",
+        image:"./img/intership/python.png",
         courcename:"Core Python",
         duration:"1 Month",
         desc:" Core Python, Adv.Python, Pandas, Numpy",
@@ -46,7 +46,7 @@ const intershipcource = [
     },
     {
         id:6,
-        image:"./img/h_1.png",
+        image:"./img/intership/automation.jpg",
         courcename:"Manual Testing",
         duration:"3 Months",
         desc:"Exploratory testing, UI testing, Performance testing, Acceptance testing",

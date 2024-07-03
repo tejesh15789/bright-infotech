@@ -47,8 +47,6 @@
     border-radius: 0.5rem;
     aspect-ratio: 16/29;
     padding: 5px 20px;
-    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
-
 }
 .slidercards2{
     display: flex;
@@ -69,8 +67,7 @@
     justify-content: space-between;
     white-space: nowrap;
     width: 100%;
-
-    animation: scrollx 10s linear infinite reverse;
+    animation: scrollx 14s linear infinite reverse;
 }
 .boximage2{
     display: grid;

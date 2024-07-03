@@ -1,6 +1,7 @@
 import React from "react";
 import "./slidercom.css";
 import companies from "./slidercomp.js"
+import companies2 from "./slidercomp2.js"
 
 const Slidercompanies = () => {
     return (
@@ -25,7 +26,7 @@ const Slidercompanies = () => {
                 </div>
                 <div className="slidercards2">
                     <div className="slidermain2">
-                        {companies.map(val =>(
+                        {companies2.map(val =>(
                            
                             <div className="boximage2 d-flex flex-row"  key={val.id}>
                                 <img src={val.logo} alt="company-logo"  />

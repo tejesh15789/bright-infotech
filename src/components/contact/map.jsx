@@ -73,7 +73,7 @@ const Maplocation = () => {
                             <iframe
                                 title="Google Map"
                                 className="embed-responsive-item"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30767694.118830837!2d60.92944751922805!3d19.720199483373122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0420e0893437c3%3A0x34175296d54f3cc5!2sBright%20Infotech!5e0!3m2!1sen!2sin!4v1718457790697!5m2!1sen!2sin"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d260.93121235915356!2d73.9369666834074!3d18.563155446546464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3e1c956d759%3A0x20a43fa4e5e3a460!2sSoftGrid%20Info!5e0!3m2!1sen!2sin!4v1719994870729!5m2!1sen!2sin"
                                 allowFullScreen="yes    "
                                 loading="lazy"
                                 referrerPolicy="no-referrer"

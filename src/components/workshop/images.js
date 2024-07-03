@@ -143,6 +143,27 @@ const ExampleCarouselImage = [
         title: "Title 24",
         desc: "Description 24"
     }
+    ,
+    {
+        id: 25,
+        src: "./img/workshop/workshop25.jpg",
+        title: "Title 24",
+        desc: "Description 24"
+    }
+    ,
+    {
+        id: 26,
+        src: "./img/workshop/workshop26.jpg",
+        title: "Title 24",
+        desc: "Description 24"
+    }
+    ,
+    {
+        id: 27,
+        src: "./img/workshop/workshop27.jpg",
+        title: "Title 24",
+        desc: "Description 24"
+    }
 ]
 
 export default ExampleCarouselImage;

@@ -81,6 +81,22 @@ const Studentscards = [
         company: "xyx",
         role: "Power-Bi Developer",
         desc: "hstyjzh vgzhcb gjhwnsdc gjsdhbcznjhc"
+    },
+    {
+        id: 11,
+        image: "./img/placed card/s31.png",
+        name: "Amol Giri",
+        company: "xyx",
+        role: ".NET Developer",
+        desc: "hstyjzh vgzhcb gjhwnsdc gjsdhbcznjhc"
+    },
+    {
+        id: 12,
+        image: "./img/placed card/s53.png",
+        name: "Vaishnavi Rathod",
+        company: "xyx",
+        role: "Power-Bi Developer",
+        desc: "hstyjzh vgzhcb gjhwnsdc gjsdhbcznjhc"
     }
 
 
