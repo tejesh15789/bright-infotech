@@ -10,8 +10,10 @@ import HiringMain from "./components/HiringPartners/HiringMain.jsx"
 import Reviews from "./components/common/Adds/googlereviews.jsx";
 import Contact from "./components/contact/Contact.jsx"
 import Whatapp from "./components/common/Adds/whatapp.jsx";
-import Workshophome from "./components/workshop/workshophome.jsx"
-
+import Workshophome from "./components/workshop/workshophome.jsx";
+import Termsandpolices from "./components/common/footer/Termsandpolices.jsx";
+import Privatepolicy from "./components/common/footer/privatepolicy.jsx";
+import Policyreturn from "./components/common/footer/policyreturn.jsx";
 
 function App() {
   return (
@@ -28,6 +30,10 @@ function App() {
         <Route path="/Hiring Partners" exact component={HiringMain} />
         <Route path="/WorkShops" exact component={Workshophome} />
         <Route path="/Contact" exact component={Contact} />
+        <Route path="/termsandpolices" exact component={Termsandpolices} />
+        <Route path="/Privatepolicy" exact component={Privatepolicy} />
+        <Route path="/Policyreturn" exact component={Policyreturn} />
+      
       </Switch>
     </Router>
   );

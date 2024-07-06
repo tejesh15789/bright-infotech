@@ -24,7 +24,7 @@ const IntershipMain = () => {
             </p>
             <div className='pt-5'>
               <button className="ui-btn col-12" onClick={() => setOpen(true)}>
-                <span className='fw-bold'>Enroll Now</span>
+                <span className='fw-bold'>Enrole Now</span>
               </button>
             </div>
           </div>

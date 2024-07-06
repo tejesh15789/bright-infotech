@@ -1,10 +1,10 @@
 import React from "react";
 import "./placed.css";
 import Placedcards from "./Placedcard.jsx";
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AWrapper from "./AWrapper.jsx"
-import Studentsslider from "./placedstudentsslider.jsx"
+
+import Allstudentsslider from "./Allstudentsslider.jsx"
 
 
 
@@ -42,7 +42,7 @@ const Placedstudents = () => {
                 <section>
                 <Placedcards/>
                 <AWrapper/> 
-                <Studentsslider/>
+                <Allstudentsslider/>
                 
                 </section>
             

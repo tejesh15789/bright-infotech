@@ -34,14 +34,14 @@ const Header = () => {
                             <li className="nav-item"><Link to="/about" className="text-decoration-none" onClick={handleLinkClick}>About</Link></li>
                             <li className="nav-item"><Link to="/Services" className="text-decoration-none" onClick={handleLinkClick}>Training Programs</Link></li>
                             <li className="nav-item"><Link to="/Placed Students" className="text-decoration-none" onClick={handleLinkClick}>Placed Students</Link></li>
-                            <li className="nav-item"><Link to="/Intership" className="text-decoration-none" onClick={handleLinkClick}>Intership</Link></li>
+                            <li className="nav-item"><Link to="/Intership" className="text-decoration-none" onClick={handleLinkClick}>Internship</Link></li>
                             <li className="nav-item"><Link to="/Hiring Partners" className="text-decoration-none" onClick={handleLinkClick}>Hiring Partners</Link></li>
                             <li className="nav-item"><Link to="/WorkShops" className="text-decoration-none" onClick={handleLinkClick}>WorkShops</Link></li>
                             <li className="nav-item"><Link to="/Contact" className="text-decoration-none" onClick={handleLinkClick}>Contact</Link></li>
                         </ul>
                     </div>
                     <span className="navbar-text d-flex justify-content-center">
-                        <button className='fs-4 fw-bold' onClick={() => setOpen(true)}>Get Intership</button>
+                        <button className='fs-4 fw-bold' onClick={() => setOpen(true)}>Get Internship</button>
                     </span>
                 </div>
             </nav>
