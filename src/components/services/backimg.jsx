@@ -2,13 +2,20 @@ import React from 'react';
 import "./cources.css";
 import Durationtime from "./duration-time";
 import Button from 'react-bootstrap/Button';
+import { motion } from "framer-motion";
+import FadeIn from "../../variants.js";
 
 function Backimg() {
     return (
         <div className='d-flex justify-content-center align-items-center py-4'>
             <section className='container'>
                 <div className="row py-4">
-                    <div className="col-12 col-lg-6">
+                    <motion.div 
+                     variants={FadeIn("right", 0.2)}
+                     initial="hidden"
+                     whileInView={"show"}
+                     viewport={{ once: true, amount: 0.9 }}
+                    className="col-12 col-lg-6">
                         <h1 className="fw-bold lh-base" style={{ color: "skyblue" }}>
                             An Industry-Oriented <b className="text-light">Programming Languages & Full Stack Developer Course</b> with 100% Job Guarantee
                         </h1>
@@ -38,11 +45,16 @@ function Backimg() {
                                 </svg>
                             </Button>
                         </div>
-                    </div>
+                    </motion.div>
 
-                    <div className="col-12 col-lg-6 py-5 d-flex justify-content-center align-items-center">
+                    <motion.div
+                     variants={FadeIn("left", 0.2)}
+                     initial="hidden"
+                     whileInView={"show"}
+                     viewport={{ once: true, amount: 0.9 }}
+                     className="col-12 col-lg-6 py-5 d-flex justify-content-center align-items-center">
                         <img src="./img/services.png" alt="Services" className='img-fluid' />
-                    </div>
+                    </motion.div>
                 </div>
             </section>
         </div>

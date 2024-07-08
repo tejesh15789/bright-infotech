@@ -2,6 +2,8 @@ import React from 'react'
 import HiringCart from './HiringCart'
 import "./hirining.css";
 import Slidercompanies from "../sliderpartners/slidercompanies"
+import { motion } from "framer-motion";
+import FadeIn from "../../variants.js";
 
 const HiringMain = () => {
   return (
@@ -10,8 +12,15 @@ const HiringMain = () => {
 
         <section className="container py-5">
           <div className="row">
-            <div className="col-lg-6 mb-4 mb-lg-0">
-              <div className="hiringheading">
+            <motion.div
+            variants={FadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.9 }}
+             className="col-lg-6 mb-4 mb-lg-0">
+              <div 
+              
+              className="hiringheading">
                 <h1 className="fw-bold text-light">
                   <b style={{ color: "skyblue" }}>1000+</b> Organizations TRUST US WITH THEIR Openings
                 </h1>
@@ -29,10 +38,15 @@ const HiringMain = () => {
                   <p className="fw-bold text-light">Students already placed</p>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 d-flex justify-content-center align-items-center">
+            </motion.div>
+            <motion.div
+               variants={FadeIn("left", 0.2)}
+               initial="hidden"
+               whileInView={"show"}
+               viewport={{ once: true, amount: 0.9 }}
+            className="col-lg-6 d-flex justify-content-center align-items-center">
               <img src="./img/companies.png" alt="" className="img-fluid" width={400} />
-            </div>
+            </motion.div>
           </div>
         </section>
 

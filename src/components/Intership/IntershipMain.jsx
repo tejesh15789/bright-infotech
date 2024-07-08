@@ -4,6 +4,8 @@ import IntershipCard from './IntershipCard';
 import "./intership.css"
 import Modal from "react-modal";
 import Formcard from "../common/form/form"
+import { motion } from "framer-motion";
+import FadeIn from "../../variants.js";
 
 
 const IntershipMain = () => {
@@ -15,7 +17,12 @@ const IntershipMain = () => {
       </Modal>
       <section className="container">
         <main className='row d-flex py-5 gap-5'>
-          <div className="col px-2">
+          <motion.div
+          variants={FadeIn("right", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.9 }}
+           className="col px-2">
             <h1 className='fw-bold py-3' style={{ color: "skyblue" }}>
               Bright InfoTech <b className='text-white'>Internship Programs</b>
             </h1>
@@ -27,10 +34,15 @@ const IntershipMain = () => {
                 <span className='fw-bold'>Enrole Now</span>
               </button>
             </div>
-          </div>
-          <div className="col-md-12 col-lg-6 d-flex justify-content-center ">
+          </motion.div>
+          <motion.div 
+          variants={FadeIn("left", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.9 }}
+          className="col-md-12 col-lg-6 d-flex justify-content-center ">
             <img src="./img/internshiplogo1.png" alt="Internship Logo" className='img-fluid' />
-          </div>
+          </motion.div>
         </main>
 
 

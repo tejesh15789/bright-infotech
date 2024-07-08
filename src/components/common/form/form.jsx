@@ -9,6 +9,7 @@ const Formcard = (props) => {
   const [errors, setErrors] = useState({});
   const form = useRef();
 
+  console.log(props.url);
   const validateMobile = (mobile) => {
     const mobilePattern = /^[6-9]\d{9}$/;
     return mobilePattern.test(mobile);
@@ -52,10 +53,16 @@ const Formcard = (props) => {
     props.setClose(false);
   };
 
-  const downloadPDF = () => {
+  const helperfun  = (name)=>{
+    const namefield = name.split("/");
+    
+    return namefield[2];
+      }
+      
+  const downloadPDF = (url) => {
     const link = document.createElement('a');
-    link.href = './pdf/it.pdf'; // Replace with the actual path to your PDF file
-    link.download = 'BrightInfotech.pdf'; // Replace with the desired file name
+    link.href = props.url; 
+    link.download = helperfun(props.url); 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

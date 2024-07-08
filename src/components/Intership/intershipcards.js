@@ -5,7 +5,7 @@ const intershipcource = [
         courcename:"Core Python",
         duration:"1 Month",
         desc:" Core Python, Adv.Python, Pandas, Numpy",
-        download:"Download Syllabus",
+        download:"./pdf/python.pdf",
         enroll:"ENROLL NOW"
     },
     {
@@ -14,7 +14,7 @@ const intershipcource = [
         courcename:"Full Stack Python",
         duration:"3 Month",
         desc:"Core+Adv.Python, Django & Flask, HTML/JavaScript, JQuery & Bootstrap",
-        download:"Download Syllabus",
+        download:"./pdf/full stack python.pdf",
         enroll:"ENROLL NOW"
     },
     {
@@ -23,7 +23,7 @@ const intershipcource = [
         courcename:"Data Science",
         duration:"45 Days",
         desc:"Python, Pandas , Numpy, Machine Learning & Deep Learning ,  NLP",
-        download:"Download Syllabus",
+        download:"./pdf/data science.pdf",
         enroll:"ENROLL NOW"
     },
     {
@@ -32,7 +32,7 @@ const intershipcource = [
         courcename:"Flutter",
         duration:"2 Months",
         desc:"Language: Dart, Framework: Flutter, Tools: Android Studio , Visual Studio",
-        download:"Download Syllabus",
+        download:"./pdf/flutter.pdf",
         enroll:"ENROLL NOW"
     },
     {
@@ -41,7 +41,7 @@ const intershipcource = [
         courcename:".Net Full Stack",
         duration:"6 Months",
         desc:" HTML, CSS, JAVASCRIPT, SQL, MVC",
-        download:"Download Syllabus",
+        download:"./pdf/.net full stack.pdf",
         enroll:"ENROLL NOW"
     },
     {
@@ -50,7 +50,7 @@ const intershipcource = [
         courcename:"Manual Testing",
         duration:"3 Months",
         desc:"Exploratory testing, UI testing, Performance testing, Acceptance testing",
-        download:"Download Syllabus",
+        download:"./pdf/Manual Testing.pdf",
         enroll:"ENROLL NOW"
     },
     {
@@ -59,7 +59,7 @@ const intershipcource = [
         courcename:"Automation Testing",
         duration:"3 Months",
         desc:"Unit Testing, Integration Testing, API Testing, Performance Testing",
-        download:"Download Syllabus",
+        download:"./pdf/Automation Testing.pdf",
         enroll:"ENROLL NOW"
     }
     ,
@@ -69,7 +69,7 @@ const intershipcource = [
         courcename:"Power Bi",
         duration:"2 Months",
         desc:"visualize and analyze data, Advance Excel, SQL",
-        download:"Download Syllabus",
+        download:"./pdf/power bi.pdf",
         enroll:"ENROLL NOW"
     },
     {
@@ -78,7 +78,7 @@ const intershipcource = [
         courcename:"Advance Excel",
         duration:"2 Months",
         desc:"Pivot Table, Formulas, Conditional Formating",
-        download:"Download Syllabus",
+        download:"./pdf/advance excel.pdf",
         enroll:"ENROLL NOW"
     }
 ]

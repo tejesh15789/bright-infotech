@@ -1,5 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
+import { motion } from "framer-motion";
+import  FadeIn  from "../../variants.js";
 
 
 const Maplocation = () => {
@@ -16,21 +18,36 @@ const Maplocation = () => {
 
         <div>
             <section className="googlemap container">
-                <div className="ourlocation d-flex justify-content-center mt-4">
+                <motion.div 
+                variants={FadeIn("down", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: true, amount: 0.9 }}
+                className="ourlocation d-flex justify-content-center mt-4">
                     <h1 className="text-bold text-light">OUR <b className="text-warning"> LOCATION </b></h1>
-                </div>
+                </motion.div>
 
-                <div className="stateloc d-flex px-5 align-items-center gap-3 " >
+                <motion.div 
+                  variants={FadeIn("up", 0.2)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: true, amount: 0.9 }}
+                className="stateloc d-flex px-5 align-items-center gap-3 " >
                     <div className="border d-flex justify-content-center align-items-center text-light bg-warning">
                         <i className="fa-solid fa-location-dot d-flex justify-content-center align-items-center" style={{ width: '40px', height: '40px', fontSize: '30px' }}></i>
                     </div>
                     <h3 className="fw-semibold pt-3 text-light">Pune</h3>
-                </div>
+                </motion.div>
 
                 <hr />
 
                 <section className="row d-flex justify-content-center">
-                    <div className="col-lg-4 col-md-6 col-sm-12  mb-4">
+                    <motion.div
+                    variants={FadeIn("right", 0.2)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: true, amount: 0.9 }}
+                    className="col-lg-4 col-md-6 col-sm-12  mb-4">
                         <div className="addressloc d-flex px-4 py-3 align-items-center">
                             <div>
                                 <img
@@ -64,9 +81,14 @@ const Maplocation = () => {
                                 Talk to us <i className="fas fa-phone"></i>
                             </Button>
                         </div>
-                    </div>
+                    </motion.div>
 
-                    <div className="col-lg-6 col-md-6 col-sm-12  mb-4 pb-4">
+                    <motion.div
+                    variants={FadeIn("left", 0.2)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: true, amount: 0.9 }}
+                     className="col-lg-6 col-md-6 col-sm-12  mb-4 pb-4">
                         <h3 className="text-light pt-3 fs-5"><span className="text-warning"><i className="fas fa-photo-film"></i></span> LOCATION</h3>
                         <hr />
                         <div className="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
@@ -87,7 +109,7 @@ const Maplocation = () => {
                                 <img width="25" height="25" src="https://img.icons8.com/ultraviolet/40/marker.png" alt="marker" />
                             </Button>
                         </div>
-                    </div>
+                    </motion.div>
                 </section>       
             </section>
         </div>

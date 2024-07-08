@@ -1,10 +1,17 @@
 import React from 'react'
 import "./footer.css"
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+import { motion } from "framer-motion";
+import  FadeIn  from "../../../variants.js";
 
 const Footer = () => {
     return (
-        <section>
+        <motion.section
+            variants={FadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.9 }}
+        >
             <div className='d-flex  justify-content-center  bg-light'>
                 <section className="w-100 container footercontent row px-5 pt-5">
                     <div className='block1 col'>
@@ -73,9 +80,9 @@ const Footer = () => {
 
             </div>
             <div className='bg-light text-center py-2'>
-                <p>copyright &copy; BrightInfoTech Pvt. Ltd. 2022 </p>
+                <p>copyright &copy; Bright InfoTech 2017 </p>
             </div>
-        </section>
+        </motion.section>
     )
 }
 

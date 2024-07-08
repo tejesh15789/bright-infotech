@@ -2,15 +2,17 @@ import React,{useState} from "react";
 import "./stylebtn.css"
 import Modal from "react-modal"
 import Formcard from "../common/form/form";
+import intershipcource from "../Intership/intershipcards"
 
-
-const Stylebtn = () => {
+const Stylebtn = (props) => {
     const [isOpen ,setOpen] = useState(false);
+    
 
+    
     return (
         <>
-            <Modal isOpen={isOpen} style={{ overlay: { backgroundColor: 'rgba(0,0,0,0.5)' } }} onRequestClose={() => setOpen(false)} className='modalform d-flex justify-content-center align-items-center'>
-                <Formcard setClose={setOpen} />
+            <Modal  isOpen={isOpen} style={{ overlay: { backgroundColor: 'rgba(0,0,0,0.5)' } }} onRequestClose={() => setOpen(false)} className='modalform d-flex justify-content-center align-items-center'>
+                <Formcard setClose={setOpen} url={props.url}/>
             </Modal>
 
             <button class="button2" onClick={() => setOpen(true)}>
@@ -18,6 +20,7 @@ const Stylebtn = () => {
                     <path d="m18 0 8 12 10-8-4 20H4L0 4l10 8 8-12z"></path>
                 </svg>
                 Enrole Now
+                
             </button>
         </>
     )

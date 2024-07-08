@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from 'react-modal';
 import Formcard from '../form/form';
+import { motion } from "framer-motion";
+import FadeIn from "../../../variants.js";
+
 
 const Header = () => {
     const [isOpen, setOpen] = useState(false);
@@ -23,7 +26,12 @@ const Header = () => {
             <Modal isOpen={isOpen} style={{ overlay: { backgroundColor: 'rgba(0,0,0,0.5)' } }} onRequestClose={() => setOpen(false)} className='modalform d-flex justify-content-center align-items-center'>
                 <Formcard setClose={setOpen} />
             </Modal>
-            <nav className="navbar navbar-expand-xl navbar-light">
+            <motion.nav
+             variants={FadeIn("up", 0.2)}
+             initial="hidden"
+             whileInView={"show"}
+             viewport={{ once: true, amount: 0.9 }}
+            className="navbar navbar-expand-xl navbar-light">
                 <div className="container bgc-gray-size">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon border-none text-light"></span>
@@ -44,7 +52,7 @@ const Header = () => {
                         <button className='fs-4 fw-bold' onClick={() => setOpen(true)}>Get Internship</button>
                     </span>
                 </div>
-            </nav>
+            </motion.nav>
         </>
     );
 };

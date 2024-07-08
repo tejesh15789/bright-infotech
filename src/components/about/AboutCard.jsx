@@ -3,6 +3,8 @@ import Title from '../common/title/Title';
 import "./about.css";
 import homeAbout from './abouthomedata.js';
 import Figure from 'react-bootstrap/Figure';
+import { motion } from "framer-motion";
+import FadeIn from "../../variants.js";
 
 
 const AboutCard = () => {
@@ -11,7 +13,12 @@ const AboutCard = () => {
             <section className=' d-flex justify-content-center'>
                 <div className='container row py-4'>
 
-                    <div className="col-md py-5">
+                    <motion.div
+                     variants={FadeIn("right", 0.2)}
+                     initial="hidden"
+                     whileInView={"show"}
+                     viewport={{ once: true, amount: 0.9 }}
+                    className="col-md py-5">
 
                         <Figure>
                             <Figure.Image
@@ -26,10 +33,15 @@ const AboutCard = () => {
                            <b className='fw-bold'> Mr. Umesh Thorat</b> - <b style={{ color: "skyblue" }}> Director</b>
                             </Figure.Caption>
                         </Figure>
-                    </div>
+                    </motion.div>
 
 
-                    <div className="col-md">
+                    <motion.div
+                     variants={FadeIn("left", 0.2)}
+                     initial="hidden"
+                     whileInView={"show"}
+                     viewport={{ once: true, amount: 0.9 }}
+                     className="col-md">
                         <div>
                             <h1 className='fw-bold text-light'><b style={{ color: "skyblue" }}>About</b> US</h1>
                         </div>
@@ -62,7 +74,7 @@ const AboutCard = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </motion.div>
 
 
                 </div>

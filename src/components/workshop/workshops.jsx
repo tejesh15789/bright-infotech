@@ -1,6 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from './images.js';
+import { motion } from "framer-motion";
+import  FadeIn  from "../../variants.js";
 
 const Workshops = () => {
   return (
@@ -8,7 +10,12 @@ const Workshops = () => {
       <section className='d-flex bg-light justify-content-center align-items-center py-5'>
         <div className='container ff'>
           <div className='row'>
-            <div className='col-lg-6 mb-4 mb-lg-0 pb-5'>
+            <motion.div
+             variants={FadeIn("right", 0.2)}
+             initial="hidden"
+             whileInView={"show"}
+             viewport={{ once: true, amount: 0.9 }}
+             className='col-lg-6 mb-4 mb-lg-0 pb-5'>
               <Carousel className='galleryslider'>
                 {ExampleCarouselImage.map((image) => (
                   <Carousel.Item key={image.id} interval={1000}>
@@ -21,8 +28,13 @@ const Workshops = () => {
                   </Carousel.Item>
                 ))}
               </Carousel>
-            </div>
-            <div className="col-lg-6 d-flex flex-column justify-content-center ">
+            </motion.div>
+            <motion.div
+             variants={FadeIn("left", 0.2)}
+             initial="hidden"
+             whileInView={"show"}
+             viewport={{ once: true, amount: 0.9 }}
+             className="col-lg-6 d-flex flex-column justify-content-center ">
               <div className=' pt-2'>
                 <h1 className='fw-bold'>Workshop At</h1>
               </div>
@@ -31,7 +43,7 @@ const Workshops = () => {
                   International Competition arranged at <b className='college'>Sanjay Ghodawat University</b>, Kolhapur for <b className='college'>IOT and Web Based Application.</b>
                 </h3>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>

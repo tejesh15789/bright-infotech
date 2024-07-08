@@ -1,7 +1,11 @@
+import React, { useRef } from 'react';
 import Officestaff from './officestaf.js';
 import emailjs from '@emailjs/browser';
+import { motion } from "framer-motion";
+import  FadeIn  from "../../variants.js";
+import "./contacts.css"
 
-import React, { useRef } from 'react';
+
 function Formdata() {
     const form = useRef();
 
@@ -23,49 +27,60 @@ function Formdata() {
     };
 
     return (
-
         <section className='bg-light'>
-            <div className='d-flex  align-items-center justify-content-center py-3'>
+            <motion.div 
+                variants={FadeIn("down", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: true, amount: 0.9 }}
+                className='d-flex align-items-center justify-content-center py-3'
+            >
                 <h1 className='fw-bold'>Request A Call Back</h1>
-            </div>
-            <section className=' d-flex  align-items-center justify-content-center'>
-
-                <div className='row container'>
-                    <div className='col py-5 d-flex align-items-center justify-content-center'>
-                        <form className='form border' ref={form} onSubmit={sendEmail}>
-
-                            <label>
-                                <input required placeholder='' type='text' className='input' name='from_name' />
+            </motion.div>
+            <section className='d-flex align-items-center justify-content-center'>
+                <div
+                 
+                    className='row container'
+                >
+                    <div className='col-lg-6 py-5 d-flex align-items-center justify-content-center'>
+                        <motion.form
+                           variants={FadeIn("right", 0.2)}
+                           initial="hidden"
+                           whileInView={"show"}
+                           viewport={{ once: true, amount: 0.9 }}
+                         className='form border p-4' ref={form} onSubmit={sendEmail}>
+                            <label className='form-label'>
+                                <input required placeholder='' type='text' className='form-control' name='from_name' />
                                 <span>First Name</span>
                             </label>
-
-                            <label>
-                                <input required placeholder='' type='email' className='input' name='from_email' />
+                            <label className='form-label'>
+                                <input required placeholder='' type='email' className='form-control' name='from_email' />
                                 <span>Email</span>
                             </label>
-                            <label>
-                                <input required type='tel' placeholder='' className='input' name='from_phone' />
+                            <label className='form-label'>
+                                <input required type='tel' placeholder='' className='form-control' name='from_phone' />
                                 <span>Contact Number</span>
                             </label>
-                            <button className='fancy bg-warning' type='submit'>
-                                <span className='top-key'></span>
-                                <span className='text text-light'>Submit</span>
-                                <span className='bottom-key-1'></span>
-                                <span className='bottom-key-2'></span>
+                            <button className='btn btn-warning mt-3' type='submit'>
+                                <span className='text-light'>Submit</span>
                             </button>
-                        </form>
+                        </motion.form>
                     </div>
-
-
-
-                    <div className='col pb-5 fourboxes  d-flex align-items-center justify-content-center'>
-                        <main className='container py-5'>
-                            <div className='row'>
+                    <div className='col-lg-6 pb-5 d-flex align-items-center justify-content-center'>
+                        <main
+                        
+                         className='container py-5'>
+                            <motion.div 
+                             variants={FadeIn("left", 0.2)}
+                             initial="hidden"
+                             whileInView={"show"}
+                             viewport={{ once: true, amount: 0.9 }}
+                            className='row'>
                                 {Officestaff.map((val) => (
-                                    <div key={val.id} className='col-xl-6 col-sm-6 mb-2' >
-                                        <div className='card ' style={{ backgroundColor: '#376d9c', boxShadow: '0px 1px 10px 2px black' }}>
+                                    <div key={val.id} className='col-xl-6 col-sm-6 mb-2'>
+                                        <div className='card' style={{ backgroundColor: '#376d9c', boxShadow: '0px 1px 10px 2px black' }}>
                                             <div className='card-body'>
-                                                <div className='text-center mb-3 '>
+                                                <div className='text-center mb-3'>
                                                     <img src={val.image} alt='' className='img-fluid rounded-circle' style={{ width: '100px', height: '100px' }} />
                                                 </div>
                                                 <div className='text-center'>
@@ -85,13 +100,12 @@ function Formdata() {
                                         </div>
                                     </div>
                                 ))}
-                            </div>
-                        </main>    </div>
-
-                </div >
-            </section >
+                            </motion.div>
+                        </main>
+                    </div>
+                </div>
+            </section>
         </section>
-
     );
 }
 

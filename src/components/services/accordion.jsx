@@ -1,17 +1,26 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { motion } from "framer-motion";
+import FadeIn from "../../variants.js";
 
 const Accordionsubjects = () => {
     return (
         <div className='w-100 bg-light pb-5'>
             <section className='container'>
-                <div className='d-flex justify-content-center align-items-center py-5'>
+                <motion.div
+                    variants={FadeIn("up", 0.2)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: true, amount: 0.9 }}
+                    className='d-flex justify-content-center align-items-center py-5'>
                     <h1 className='fw-bold text-center'>
                         Our Courses <b style={{ color: "skyblue" }}>Curriculum</b>
                     </h1>
-                </div>
-                <Accordion defaultActiveKey={['0']} alwaysOpen className='w-100'>
+                </motion.div>
+                <Accordion
+                   
+                    defaultActiveKey={['0']} alwaysOpen className='w-100'>
                     <Accordion.Item eventKey="0" className='mb-2'>
                         <Accordion.Header>
                             <div className='row w-100 d-flex justify-content-between align-items-center'>
