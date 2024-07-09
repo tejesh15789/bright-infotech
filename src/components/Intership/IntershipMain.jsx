@@ -30,7 +30,7 @@ const IntershipMain = () => {
               Join our internship program today and start your journey towards a successful career in the software industry!
             </p>
             <div className='pt-5'>
-              <button className="ui-btn col-12" onClick={() => setOpen(true)}>
+              <button className="ui-btn col-12" >
                 <span className='fw-bold'>Enrole Now</span>
               </button>
             </div>

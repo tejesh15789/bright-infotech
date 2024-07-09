@@ -49,7 +49,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <span className="navbar-text d-flex justify-content-center">
-                        <button className='fs-4 fw-bold' onClick={() => setOpen(true)}>Get Internship</button>
+                        <button className='fs-4 fw-bold'>Get Internship</button>
                     </span>
                 </div>
             </motion.nav>
